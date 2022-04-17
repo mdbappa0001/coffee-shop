@@ -1,6 +1,9 @@
 .services-title{
     text-align: center;
     color: yellowgreen;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px;
 }
 .services-container {
     display: grid;
@@ -10,6 +13,12 @@
 
 @media only screen and (max-width:576px) {
     .services-container{
-        display: block;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width: 992px){
+    .services-container{
+        grid-template-columns: repeat(2, 1fr);
     }
 }

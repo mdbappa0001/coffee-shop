@@ -1,0 +1,17 @@
+.logo{
+    width: 70px;
+}
+.customlink{
+   margin-top: 20px;
+   font-weight: bolder;
+   margin-left: 20px;
+   font-size: 20px;
+}
+@media only screen and (max-width:576px) {
+    .customlink{
+        display: flex;
+    }
+    .logo{
+        display: none;
+    }
+}
