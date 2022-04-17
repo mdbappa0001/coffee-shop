@@ -1,0 +1,14 @@
+.img{
+    width: 440px;
+    height: 300px;
+    border-radius: 10px;
+    border: 8px solid black;
+}
+.service{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px 5px ; */
+    padding: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+}
