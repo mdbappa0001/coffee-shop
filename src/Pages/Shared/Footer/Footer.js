@@ -3,7 +3,9 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-           <p><small>copyright @ </small></p>
+           <div c>
+
+           </div>
         </footer>
     );
 };

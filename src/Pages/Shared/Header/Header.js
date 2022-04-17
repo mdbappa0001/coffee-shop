@@ -14,8 +14,8 @@ const Header = () => {
             <CustomLink className='customlink' to='/'>HOME</CustomLink>
             <CustomLink className='customlink' to='/reviews'>REVIEWS</CustomLink>
             <CustomLink className='customlink' to='/dashboard'>DASHBOARD</CustomLink>
-            <CustomLink className='customlink' to='/blogs'>BLOGS</CustomLink>
-            <CustomLink className='customlink' to='/about'>ABOUT</CustomLink>
+            <CustomLink className='customlink' to='/blog'>BLOGS</CustomLink>
+            <CustomLink className='customlink' to='/about'>ABOUT US</CustomLink>
         </div>
 
     </div>
