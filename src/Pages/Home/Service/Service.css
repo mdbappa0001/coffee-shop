@@ -12,6 +12,22 @@
     text-align: center;
     padding-bottom: 10px;
 }
+.button {
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border: 2px solid black;
+   color: black;
+   background-color: salmon;
+   border-radius: 7px;
+   margin: 10px;
+   padding: 5px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+
+
 @media only screen and (max-width:576px) {
     .img{
 width: 100%;
