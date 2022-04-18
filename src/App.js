@@ -8,10 +8,18 @@ import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import NotFound from './Pages/Shared/NotFound/NotFound';
+import {createContext, useState} from 'react';
+
+export const ServiceContext = createContext();
 
 function App() {
+
+const [services, setServices] = useState([]);
+console.log(services);
+
   return (
-    <div>
+    
+      <ServiceContext.Provider value = {[services, setServices]}>
       <Header></Header>
     <Routes>
       <Route path='/' element={<Home></Home>}></Route>
@@ -21,7 +29,7 @@ function App() {
       <Route path='*' element={<NotFound></NotFound>}></Route>
     </Routes>
     <Footer></Footer>
-    </div>
+    </ServiceContext.Provider>
   );
 }
 
