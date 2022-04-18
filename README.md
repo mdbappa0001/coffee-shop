@@ -1,10 +1,23 @@
-# Getting Started with Create React App
+# CAFENA 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Private Repo Link [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## About This Project
 
-In the project directory, you can run:
+- This project represent different types of coffee.
+- In Home route, we show a title and a logo of coffee and    also added 3 product below.
+- In Blogs route, we show some question and answer.
+- In About route, i describe myself.
+- We also show some login and singout route also.
+
+
+## Frameword that i used in this project
+
+- React bootstarp
+- React Toast
+- React Tailwind
+- Rirebase Authentication github
+- vanilla css
 
 ### `npm start`
 
