@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
-
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -104,6 +103,7 @@ const SignUp = () => {
                 {errors?.password && <p className='error-message'>{errors.password}</p>}
                 <input type="password" placeholder='confirm password' onChange={handleConfirmPasswordChange} />
                 <button>Sign Up</button>
+               
 
                 {/* {hookError && <p className='error-message'>{hookError?.message}</p>} */}
                 <ToastContainer />
