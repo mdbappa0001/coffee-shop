@@ -1,0 +1,11 @@
+.about{
+    width: 50%;
+    margin: 0 auto;
+    border: 5px solid yellowgreen;
+    margin-top: 120px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.aboutContent{
+    font-weight: bolder;
+}
