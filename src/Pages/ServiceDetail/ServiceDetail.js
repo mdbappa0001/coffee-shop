@@ -7,20 +7,20 @@ import './ServiceDetail.css';
 const ServiceDetail = () => {
     const [services, setServices] = useContext(ServiceContext);
 
-    useEffect( ()=>{
+    useEffect(() => {
         fetch('services.json')
-        .then(res => res.json())
-        .then(data => setServices(data))
-    } ,[setServices])
+            .then(res => res.json())
+            .then(data => setServices(data))
+    }, [setServices])
     return (
         <div className='serviceDetail'>
-{
-    services.map(service => <ServiceDetails
-    key={service.id}
-    service={service}
-    ></ServiceDetails>)
-}
-            </div>
+            {
+                services.map(service => <ServiceDetails
+                    key={service.id}
+                    service={service}
+                ></ServiceDetails>)
+            }
+        </div>
     );
 };
 
